@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+head {
+  position: relative;
+}
+
+body {
+  background: white;
+}
+
+.container {
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.border {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90px;
+  height: 330px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.border2 {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  background: white;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90px;
+  height: 330px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.item-1 {
+  background: red;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item-2 {
+  background: yellow;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item-3 {
+  background: rgb(0, 128, 255);
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item-4 {
+  background: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item-5 {
+  background: white;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+  background: red;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item2 {
+  background: yellow;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item3 {
+  background: rgb(0, 128, 255);
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item4 {
+  background: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+.item5 {
+  background: white;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid__box {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.grid__item {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  height: 250px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: rgb(0, 128, 255);
+}
+
+.black {
+  background: black;
+}
+
+.gray {
+  background: gray;
+}
